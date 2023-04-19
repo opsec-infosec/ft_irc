@@ -4,6 +4,5 @@
 .vscode
 .DS_Store
 *.a
-*.log
 ft_irc
 ircserv

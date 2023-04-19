@@ -1,0 +1,388 @@
+23:20:36	0x4d630d0	Server: Creating Instance host=0.0.0.0 port=6667 password=42irc
+23:20:36	Server: Listening on address=0.0.0.0 port=6667
+23:20:41	Client 5: connected from IP: 0.0.0.0
+23:20:41	Client 5: received 64 bytes <= msg: CAP LS | PASS 42irc | NICK Dweep | USER root root 127.0.0.1 :root 
+23:20:41	Client 5: sent 18 bytes => msg: :ft_irc CAP * LS
+23:20:41	Client 5: sent 47 bytes => msg: : NICK Dweep :changed their nickname to Dweep
+23:20:41	Client 5: received 9 bytes <= msg: CAP END 
+23:20:41	Client 5: sent 57 bytes => msg: :ft_irc 001 Dweep :Welcome to the ft_irc Network, Dweep
+23:20:41	Client 5: sent 64 bytes => msg: :ft_irc 002 Dweep :Your host is ft_irc, running version 1.0.0a
+23:20:41	Client 5: sent 48 bytes => msg: :ft_irc 003 Dweep :This server was created on 
+23:20:41	Client 5: sent 48 bytes => msg: :ft_irc 004 Dweep :ft_irc 1.0.0a iwro imstn lk
+23:20:41	Client 5: sent 104 bytes => msg: :ft_irc 005  NICKLEN=12 MAXCHANNELS=10 CHANTYPES=#& CHANMODES=,k,l,imstn :are supported by this server
+23:20:41	Client 5: sent 68 bytes => msg: :ft_irc 251 Dweep :There are 1 user(s) and 0 invisible on 1 server
+23:20:41	Client 5: sent 56 bytes => msg: :ft_irc 255 Dweep :I have 1 client(s) and *this server
+23:20:41	Client 5: sent 39 bytes => msg: :ft_irc 375 Dweep :Message of the Day
+23:20:41	Client 5: sent 38 bytes => msg: :ft_irc 372 Dweep :                 
+23:20:41	Client 5: sent 38 bytes => msg: :ft_irc 372 Dweep :                 
+23:20:41	Client 5: sent 38 bytes => msg: :ft_irc 372 Dweep :    Keep Swimming
+23:20:41	Client 5: sent 38 bytes => msg: :ft_irc 372 Dweep :                 
+23:20:41	Client 5: sent 48 bytes => msg: :ft_irc 372 Dweep :ft_irc is a PAIN in the ***
+23:20:41	Client 5: sent 47 bytes => msg: :ft_irc 372 Dweep :No Ascii tree are here !!!
+23:20:41	Client 5: sent 38 bytes => msg: :ft_irc 372 Dweep :                 
+23:20:41	Client 5: sent 41 bytes => msg: :ft_irc 376 Dweep :End of /MOTD command
+23:20:41	Client 5: received 15 bytes <= msg: MODE Dweep +i 
+23:20:41	Client 5: sent 23 bytes => msg: :ft_irc MODE Dweep +i
+23:20:44	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:20:44	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:20:55	Client 5: received 10 bytes <= msg: JOIN #42 
+23:20:55	Channel #42: Created +
+23:20:55	Channel #42: Add Client 5 Dweep +
+23:20:55	Client 5: sent 17 bytes => msg: :Dweep JOIN #42
+23:20:55	Client 5: sent 40 bytes => msg: :ft_irc 331 Dweep #42 :No topic is set
+23:20:55	Client 5: sent 33 bytes => msg: :ft_irc 353 Dweep = #42 :@Dweep
+23:20:55	Client 5: sent 44 bytes => msg: :ft_irc 366 Dweep #42 :End of /NAMES list.
+23:20:55	Client 5: received 10 bytes <= msg: MODE #42 
+23:20:55	Client 5: sent 27 bytes => msg: :ft_irc 324 Dweep #42 +tn
+23:20:55	Client 5: received 9 bytes <= msg: WHO #42 
+23:20:55	Client 5: sent 60 bytes => msg: :ft_irc 352 Dweep #42 root root 127.0.0.1 Dweep H@ :0 root
+23:20:55	Client 5: sent 36 bytes => msg: :ft_irc 315 #42 :End of /WHO list.
+23:21:05	Client 6: connected from IP: 0.0.0.0
+23:21:05	Client 6: received 75 bytes <= msg: CAP LS | PASS 42irc | USER client5 client5 127.0.0.1 :client5 | NICK client5 
+23:21:05	Client 6: sent 18 bytes => msg: :ft_irc CAP * LS
+23:21:05	Client 6: sent 51 bytes => msg: : NICK client5 :changed their nickname to client5
+23:21:05	Client 6: received 51 bytes <= msg: CAP END | JOIN #42 | JOIN #client5 | MODE client5 -i 
+23:21:05	Channel #42: Add Client 6 client5 +
+23:21:05	Client 5: sent 19 bytes => msg: :client5 JOIN #42
+23:21:05	Client 6: sent 61 bytes => msg: :ft_irc 001 client5 :Welcome to the ft_irc Network, client5
+23:21:05	Client 6: sent 66 bytes => msg: :ft_irc 002 client5 :Your host is ft_irc, running version 1.0.0a
+23:21:05	Client 6: sent 50 bytes => msg: :ft_irc 003 client5 :This server was created on 
+23:21:05	Client 6: sent 50 bytes => msg: :ft_irc 004 client5 :ft_irc 1.0.0a iwro imstn lk
+23:21:05	Client 6: sent 104 bytes => msg: :ft_irc 005  NICKLEN=12 MAXCHANNELS=10 CHANTYPES=#& CHANMODES=,k,l,imstn :are supported by this server
+23:21:05	Client 6: sent 70 bytes => msg: :ft_irc 251 client5 :There are 2 user(s) and 1 invisible on 1 server
+23:21:05	Client 6: sent 58 bytes => msg: :ft_irc 255 client5 :I have 2 client(s) and *this server
+23:21:05	Client 6: sent 41 bytes => msg: :ft_irc 375 client5 :Message of the Day
+23:21:05	Client 6: sent 40 bytes => msg: :ft_irc 372 client5 :                 
+23:21:05	Client 6: sent 40 bytes => msg: :ft_irc 372 client5 :                 
+23:21:05	Client 6: sent 40 bytes => msg: :ft_irc 372 client5 :    Keep Swimming
+23:21:05	Client 6: sent 40 bytes => msg: :ft_irc 372 client5 :                 
+23:21:05	Client 6: sent 50 bytes => msg: :ft_irc 372 client5 :ft_irc is a PAIN in the ***
+23:21:05	Client 6: sent 49 bytes => msg: :ft_irc 372 client5 :No Ascii tree are here !!!
+23:21:05	Client 6: sent 40 bytes => msg: :ft_irc 372 client5 :                 
+23:21:05	Client 6: sent 43 bytes => msg: :ft_irc 376 client5 :End of /MOTD command
+23:21:05	Client 6: sent 19 bytes => msg: :client5 JOIN #42
+23:21:05	Client 6: sent 42 bytes => msg: :ft_irc 331 client5 #42 :No topic is set
+23:21:05	Client 6: sent 43 bytes => msg: :ft_irc 353 client5 = #42 :@Dweep client5
+23:21:05	Client 6: sent 46 bytes => msg: :ft_irc 366 client5 #42 :End of /NAMES list.
+23:21:05	Client 6: sent 25 bytes => msg: :ft_irc MODE client5 -i
+23:21:05	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:05	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:09	Client 8: connected from IP: 0.0.0.0
+23:21:09	Client 8: received 75 bytes <= msg: CAP LS | PASS 42irc | USER client1 client1 127.0.0.1 :client1 | NICK client1 
+23:21:09	Client 8: sent 18 bytes => msg: :ft_irc CAP * LS
+23:21:09	Client 8: sent 51 bytes => msg: : NICK client1 :changed their nickname to client1
+23:21:09	Client 8: received 51 bytes <= msg: CAP END | JOIN #42 | JOIN #client1 | MODE client1 -i 
+23:21:09	Channel #42: Add Client 8 client1 +
+23:21:09	Client 5: sent 19 bytes => msg: :client1 JOIN #42
+23:21:09	Client 6: sent 19 bytes => msg: :client1 JOIN #42
+23:21:09	Client 8: sent 61 bytes => msg: :ft_irc 001 client1 :Welcome to the ft_irc Network, client1
+23:21:09	Client 8: sent 66 bytes => msg: :ft_irc 002 client1 :Your host is ft_irc, running version 1.0.0a
+23:21:09	Client 8: sent 50 bytes => msg: :ft_irc 003 client1 :This server was created on 
+23:21:09	Client 8: sent 50 bytes => msg: :ft_irc 004 client1 :ft_irc 1.0.0a iwro imstn lk
+23:21:09	Client 8: sent 104 bytes => msg: :ft_irc 005  NICKLEN=12 MAXCHANNELS=10 CHANTYPES=#& CHANMODES=,k,l,imstn :are supported by this server
+23:21:09	Client 8: sent 70 bytes => msg: :ft_irc 251 client1 :There are 3 user(s) and 1 invisible on 1 server
+23:21:09	Client 8: sent 58 bytes => msg: :ft_irc 255 client1 :I have 3 client(s) and *this server
+23:21:09	Client 8: sent 41 bytes => msg: :ft_irc 375 client1 :Message of the Day
+23:21:09	Client 8: sent 40 bytes => msg: :ft_irc 372 client1 :                 
+23:21:09	Client 8: sent 40 bytes => msg: :ft_irc 372 client1 :                 
+23:21:09	Client 8: sent 40 bytes => msg: :ft_irc 372 client1 :    Keep Swimming
+23:21:09	Client 8: sent 40 bytes => msg: :ft_irc 372 client1 :                 
+23:21:09	Client 8: sent 50 bytes => msg: :ft_irc 372 client1 :ft_irc is a PAIN in the ***
+23:21:09	Client 8: sent 49 bytes => msg: :ft_irc 372 client1 :No Ascii tree are here !!!
+23:21:09	Client 8: sent 40 bytes => msg: :ft_irc 372 client1 :                 
+23:21:09	Client 8: sent 43 bytes => msg: :ft_irc 376 client1 :End of /MOTD command
+23:21:09	Client 8: sent 19 bytes => msg: :client1 JOIN #42
+23:21:09	Client 8: sent 42 bytes => msg: :ft_irc 331 client1 #42 :No topic is set
+23:21:09	Client 8: sent 51 bytes => msg: :ft_irc 353 client1 = #42 :@Dweep client5 client1
+23:21:09	Client 8: sent 46 bytes => msg: :ft_irc 366 client1 #42 :End of /NAMES list.
+23:21:09	Client 8: sent 25 bytes => msg: :ft_irc MODE client1 -i
+23:21:09	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:09	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:09	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:10	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:10	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:10	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:14	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:14	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:14	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:18	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:18	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:18	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:19	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:19	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:19	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:23	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:23	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:23	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:26	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:26	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:26	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:28	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:28	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:28	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:28	Client 9: connected from IP: 0.0.0.0
+23:21:28	Client 9: received 75 bytes <= msg: CAP LS | PASS 42irc | USER client4 client4 127.0.0.1 :client4 | NICK client4 
+23:21:28	Client 9: sent 18 bytes => msg: :ft_irc CAP * LS
+23:21:28	Client 9: sent 51 bytes => msg: : NICK client4 :changed their nickname to client4
+23:21:28	Client 9: received 51 bytes <= msg: CAP END | JOIN #42 | JOIN #client4 | MODE client4 -i 
+23:21:28	Channel #42: Add Client 9 client4 +
+23:21:28	Client 5: sent 19 bytes => msg: :client4 JOIN #42
+23:21:28	Client 6: sent 19 bytes => msg: :client4 JOIN #42
+23:21:28	Client 8: sent 19 bytes => msg: :client4 JOIN #42
+23:21:28	Client 9: sent 61 bytes => msg: :ft_irc 001 client4 :Welcome to the ft_irc Network, client4
+23:21:28	Client 9: sent 66 bytes => msg: :ft_irc 002 client4 :Your host is ft_irc, running version 1.0.0a
+23:21:28	Client 9: sent 50 bytes => msg: :ft_irc 003 client4 :This server was created on 
+23:21:28	Client 9: sent 50 bytes => msg: :ft_irc 004 client4 :ft_irc 1.0.0a iwro imstn lk
+23:21:28	Client 9: sent 104 bytes => msg: :ft_irc 005  NICKLEN=12 MAXCHANNELS=10 CHANTYPES=#& CHANMODES=,k,l,imstn :are supported by this server
+23:21:28	Client 9: sent 70 bytes => msg: :ft_irc 251 client4 :There are 4 user(s) and 1 invisible on 1 server
+23:21:28	Client 9: sent 58 bytes => msg: :ft_irc 255 client4 :I have 4 client(s) and *this server
+23:21:28	Client 9: sent 41 bytes => msg: :ft_irc 375 client4 :Message of the Day
+23:21:28	Client 9: sent 40 bytes => msg: :ft_irc 372 client4 :                 
+23:21:28	Client 9: sent 40 bytes => msg: :ft_irc 372 client4 :                 
+23:21:28	Client 9: sent 40 bytes => msg: :ft_irc 372 client4 :    Keep Swimming
+23:21:28	Client 9: sent 40 bytes => msg: :ft_irc 372 client4 :                 
+23:21:28	Client 9: sent 50 bytes => msg: :ft_irc 372 client4 :ft_irc is a PAIN in the ***
+23:21:28	Client 9: sent 49 bytes => msg: :ft_irc 372 client4 :No Ascii tree are here !!!
+23:21:28	Client 9: sent 40 bytes => msg: :ft_irc 372 client4 :                 
+23:21:28	Client 9: sent 43 bytes => msg: :ft_irc 376 client4 :End of /MOTD command
+23:21:28	Client 9: sent 19 bytes => msg: :client4 JOIN #42
+23:21:28	Client 9: sent 42 bytes => msg: :ft_irc 331 client4 #42 :No topic is set
+23:21:28	Client 9: sent 59 bytes => msg: :ft_irc 353 client4 = #42 :@Dweep client5 client1 client4
+23:21:28	Client 9: sent 46 bytes => msg: :ft_irc 366 client4 #42 :End of /NAMES list.
+23:21:28	Client 9: sent 25 bytes => msg: :ft_irc MODE client4 -i
+23:21:28	Client 9: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:28	Client 5: sent 33 bytes => msg: :client4 PRIVMSG #42 :Hello #42
+23:21:28	Client 6: sent 33 bytes => msg: :client4 PRIVMSG #42 :Hello #42
+23:21:28	Client 8: sent 33 bytes => msg: :client4 PRIVMSG #42 :Hello #42
+23:21:32	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:32	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:32	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:32	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:35	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:35	Client 9: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:35	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:35	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:37	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:37	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:37	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:37	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:41	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:41	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:41	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:41	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:43	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:43	Client 9: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:43	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:43	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:45	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:21:45	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:21:46	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:46	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:46	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:46	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:46	Client 10: connected from IP: 0.0.0.0
+23:21:46	Client 10: received 75 bytes <= msg: CAP LS | PASS 42irc | USER client2 client2 127.0.0.1 :client2 | NICK client2 
+23:21:46	Client 10: sent 18 bytes => msg: :ft_irc CAP * LS
+23:21:46	Client 10: sent 51 bytes => msg: : NICK client2 :changed their nickname to client2
+23:21:46	Client 10: received 51 bytes <= msg: CAP END | JOIN #42 | JOIN #client2 | MODE client2 -i 
+23:21:46	Channel #42: Add Client 10 client2 +
+23:21:46	Client 5: sent 19 bytes => msg: :client2 JOIN #42
+23:21:46	Client 6: sent 19 bytes => msg: :client2 JOIN #42
+23:21:46	Client 8: sent 19 bytes => msg: :client2 JOIN #42
+23:21:46	Client 9: sent 19 bytes => msg: :client2 JOIN #42
+23:21:46	Client 10: sent 61 bytes => msg: :ft_irc 001 client2 :Welcome to the ft_irc Network, client2
+23:21:46	Client 10: sent 66 bytes => msg: :ft_irc 002 client2 :Your host is ft_irc, running version 1.0.0a
+23:21:46	Client 10: sent 50 bytes => msg: :ft_irc 003 client2 :This server was created on 
+23:21:46	Client 10: sent 50 bytes => msg: :ft_irc 004 client2 :ft_irc 1.0.0a iwro imstn lk
+23:21:46	Client 10: sent 104 bytes => msg: :ft_irc 005  NICKLEN=12 MAXCHANNELS=10 CHANTYPES=#& CHANMODES=,k,l,imstn :are supported by this server
+23:21:46	Client 10: sent 70 bytes => msg: :ft_irc 251 client2 :There are 5 user(s) and 1 invisible on 1 server
+23:21:46	Client 10: sent 58 bytes => msg: :ft_irc 255 client2 :I have 5 client(s) and *this server
+23:21:46	Client 10: sent 41 bytes => msg: :ft_irc 375 client2 :Message of the Day
+23:21:46	Client 10: sent 40 bytes => msg: :ft_irc 372 client2 :                 
+23:21:46	Client 10: sent 40 bytes => msg: :ft_irc 372 client2 :                 
+23:21:46	Client 10: sent 40 bytes => msg: :ft_irc 372 client2 :    Keep Swimming
+23:21:46	Client 10: sent 40 bytes => msg: :ft_irc 372 client2 :                 
+23:21:46	Client 10: sent 50 bytes => msg: :ft_irc 372 client2 :ft_irc is a PAIN in the ***
+23:21:46	Client 10: sent 49 bytes => msg: :ft_irc 372 client2 :No Ascii tree are here !!!
+23:21:46	Client 10: sent 40 bytes => msg: :ft_irc 372 client2 :                 
+23:21:46	Client 10: sent 43 bytes => msg: :ft_irc 376 client2 :End of /MOTD command
+23:21:46	Client 10: sent 19 bytes => msg: :client2 JOIN #42
+23:21:46	Client 10: sent 42 bytes => msg: :ft_irc 331 client2 #42 :No topic is set
+23:21:46	Client 10: sent 67 bytes => msg: :ft_irc 353 client2 = #42 :@Dweep client5 client1 client4 client2
+23:21:46	Client 10: sent 46 bytes => msg: :ft_irc 366 client2 #42 :End of /NAMES list.
+23:21:46	Client 10: sent 25 bytes => msg: :ft_irc MODE client2 -i
+23:21:46	Client 10: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:46	Client 5: sent 33 bytes => msg: :client2 PRIVMSG #42 :Hello #42
+23:21:46	Client 6: sent 33 bytes => msg: :client2 PRIVMSG #42 :Hello #42
+23:21:46	Client 8: sent 33 bytes => msg: :client2 PRIVMSG #42 :Hello #42
+23:21:46	Client 9: sent 33 bytes => msg: :client2 PRIVMSG #42 :Hello #42
+23:21:50	Client 11: connected from IP: 0.0.0.0
+23:21:50	Client 11: received 75 bytes <= msg: CAP LS | PASS 42irc | USER client3 client3 127.0.0.1 :client3 | NICK client3 
+23:21:50	Client 11: sent 18 bytes => msg: :ft_irc CAP * LS
+23:21:50	Client 11: sent 51 bytes => msg: : NICK client3 :changed their nickname to client3
+23:21:50	Client 11: received 51 bytes <= msg: CAP END | JOIN #42 | JOIN #client3 | MODE client3 -i 
+23:21:50	Channel #42: Add Client 11 client3 +
+23:21:50	Client 5: sent 19 bytes => msg: :client3 JOIN #42
+23:21:50	Client 6: sent 19 bytes => msg: :client3 JOIN #42
+23:21:50	Client 8: sent 19 bytes => msg: :client3 JOIN #42
+23:21:50	Client 9: sent 19 bytes => msg: :client3 JOIN #42
+23:21:50	Client 10: sent 19 bytes => msg: :client3 JOIN #42
+23:21:50	Client 11: sent 61 bytes => msg: :ft_irc 001 client3 :Welcome to the ft_irc Network, client3
+23:21:50	Client 11: sent 66 bytes => msg: :ft_irc 002 client3 :Your host is ft_irc, running version 1.0.0a
+23:21:50	Client 11: sent 50 bytes => msg: :ft_irc 003 client3 :This server was created on 
+23:21:50	Client 11: sent 50 bytes => msg: :ft_irc 004 client3 :ft_irc 1.0.0a iwro imstn lk
+23:21:50	Client 11: sent 104 bytes => msg: :ft_irc 005  NICKLEN=12 MAXCHANNELS=10 CHANTYPES=#& CHANMODES=,k,l,imstn :are supported by this server
+23:21:50	Client 11: sent 70 bytes => msg: :ft_irc 251 client3 :There are 6 user(s) and 1 invisible on 1 server
+23:21:50	Client 11: sent 58 bytes => msg: :ft_irc 255 client3 :I have 6 client(s) and *this server
+23:21:50	Client 11: sent 41 bytes => msg: :ft_irc 375 client3 :Message of the Day
+23:21:50	Client 11: sent 40 bytes => msg: :ft_irc 372 client3 :                 
+23:21:50	Client 11: sent 40 bytes => msg: :ft_irc 372 client3 :                 
+23:21:50	Client 11: sent 40 bytes => msg: :ft_irc 372 client3 :    Keep Swimming
+23:21:50	Client 11: sent 40 bytes => msg: :ft_irc 372 client3 :                 
+23:21:50	Client 11: sent 50 bytes => msg: :ft_irc 372 client3 :ft_irc is a PAIN in the ***
+23:21:50	Client 11: sent 49 bytes => msg: :ft_irc 372 client3 :No Ascii tree are here !!!
+23:21:50	Client 11: sent 40 bytes => msg: :ft_irc 372 client3 :                 
+23:21:50	Client 11: sent 43 bytes => msg: :ft_irc 376 client3 :End of /MOTD command
+23:21:50	Client 11: sent 19 bytes => msg: :client3 JOIN #42
+23:21:50	Client 11: sent 42 bytes => msg: :ft_irc 331 client3 #42 :No topic is set
+23:21:50	Client 11: sent 75 bytes => msg: :ft_irc 353 client3 = #42 :@Dweep client5 client1 client4 client2 client3
+23:21:50	Client 11: sent 46 bytes => msg: :ft_irc 366 client3 #42 :End of /NAMES list.
+23:21:50	Client 11: sent 25 bytes => msg: :ft_irc MODE client3 -i
+23:21:50	Client 11: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:50	Client 5: sent 33 bytes => msg: :client3 PRIVMSG #42 :Hello #42
+23:21:50	Client 6: sent 33 bytes => msg: :client3 PRIVMSG #42 :Hello #42
+23:21:50	Client 8: sent 33 bytes => msg: :client3 PRIVMSG #42 :Hello #42
+23:21:50	Client 9: sent 33 bytes => msg: :client3 PRIVMSG #42 :Hello #42
+23:21:50	Client 10: sent 33 bytes => msg: :client3 PRIVMSG #42 :Hello #42
+23:21:50	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:50	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:50	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:50	Client 10: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:50	Client 11: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:50	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:52	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:52	Client 9: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:52	Client 10: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:52	Client 11: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:52	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:52	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:21:55	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:55	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:55	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:55	Client 10: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:55	Client 11: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:55	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:56	Client 9: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:56	Client 10: sent 33 bytes => msg: :client4 PRIVMSG #42 :Hello #42
+23:21:56	Client 11: sent 33 bytes => msg: :client4 PRIVMSG #42 :Hello #42
+23:21:56	Client 5: sent 33 bytes => msg: :client4 PRIVMSG #42 :Hello #42
+23:21:56	Client 6: sent 33 bytes => msg: :client4 PRIVMSG #42 :Hello #42
+23:21:56	Client 8: sent 33 bytes => msg: :client4 PRIVMSG #42 :Hello #42
+23:21:59	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:21:59	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:59	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:59	Client 10: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:59	Client 11: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:21:59	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:00	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:22:00	Client 9: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:00	Client 10: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:00	Client 11: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:00	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:00	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:04	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:22:04	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:04	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:04	Client 10: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:04	Client 11: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:04	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:08	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:22:08	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:08	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:08	Client 10: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:08	Client 11: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:08	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:09	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:22:09	Client 9: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:09	Client 10: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:09	Client 11: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:09	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:09	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:13	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:22:13	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:13	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:13	Client 10: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:13	Client 11: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:13	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:17	Client 8: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:22:17	Client 9: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:17	Client 10: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:17	Client 11: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:17	Client 5: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:17	Client 6: sent 33 bytes => msg: :client1 PRIVMSG #42 :Hello #42
+23:22:17	Client 6: received 24 bytes <= msg: PRIVMSG #42 :Hello #42 
+23:22:17	Client 8: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:17	Client 9: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:17	Client 10: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:17	Client 11: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:17	Client 5: sent 33 bytes => msg: :client5 PRIVMSG #42 :Hello #42
+23:22:22	Client 10: Removed from channel list #42
+23:22:22	Channel #42: Removed Client 10 client2 -
+23:22:22	Client 10: Removed from server list
+23:22:22	Client 10: Disconnected
+23:22:22	Client 5: sent 31 bytes => msg: :client2 QUIT :QUIT: leaving 
+23:22:22	Client 6: sent 31 bytes => msg: :client2 QUIT :QUIT: leaving 
+23:22:22	Client 6: Removed from channel list #42
+23:22:22	Channel #42: Removed Client 6 client5 -
+23:22:22	Client 6: Removed from server list
+23:22:22	Client 6: Disconnected
+23:22:22	Client 5: sent 31 bytes => msg: :client5 QUIT :QUIT: leaving 
+23:22:22	Client 8: sent 31 bytes => msg: :client2 QUIT :QUIT: leaving 
+23:22:22	Client 8: sent 31 bytes => msg: :client5 QUIT :QUIT: leaving 
+23:22:22	Client 8: Removed from channel list #42
+23:22:22	Channel #42: Removed Client 8 client1 -
+23:22:22	Client 8: Removed from server list
+23:22:22	Client 8: Disconnected
+23:22:22	Client 11: sent 31 bytes => msg: :client2 QUIT :QUIT: leaving 
+23:22:22	Client 11: sent 31 bytes => msg: :client5 QUIT :QUIT: leaving 
+23:22:22	Client 11: sent 31 bytes => msg: :client1 QUIT :QUIT: leaving 
+23:22:22	Client 5: sent 31 bytes => msg: :client1 QUIT :QUIT: leaving 
+23:22:22	Client 9: sent 31 bytes => msg: :client2 QUIT :QUIT: leaving 
+23:22:22	Client 9: sent 31 bytes => msg: :client5 QUIT :QUIT: leaving 
+23:22:22	Client 9: sent 31 bytes => msg: :client1 QUIT :QUIT: leaving 
+23:22:22	Client 11: Removed from channel list #42
+23:22:22	Channel #42: Removed Client 11 client3 -
+23:22:22	Client 11: Removed from server list
+23:22:22	Client 11: Disconnected
+23:22:22	Client 5: sent 31 bytes => msg: :client3 QUIT :QUIT: leaving 
+23:22:22	Client 9: sent 31 bytes => msg: :client3 QUIT :QUIT: leaving 
+23:22:22	Client 9: Removed from channel list #42
+23:22:22	Channel #42: Removed Client 9 client4 -
+23:22:22	Client 9: Removed from server list
+23:22:22	Client 9: Disconnected
+23:22:22	Client 5: sent 31 bytes => msg: :client4 QUIT :QUIT: leaving 
+23:22:46	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:22:46	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:23:47	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:23:47	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:24:48	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:24:48	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:25:49	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:25:49	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:26:50	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:26:50	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:27:51	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:27:51	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:28:52	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:28:52	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:29:53	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:29:53	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:30:54	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:30:54	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:31:55	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:31:55	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:32:56	Client 5: received 13 bytes <= msg: PING ft_irc 
+23:32:56	Client 5: sent 29 bytes => msg: :ft_irc PONG ft_irc :ft_irc
+23:33:14	Server: Received signal 2
+23:33:14	Server: Stopped socked closed
+23:33:14	Server: Terminated
