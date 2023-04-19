@@ -31,11 +31,10 @@
 
 Our ft_irc server project written in C++.  The project required the students to create an IRC (Internet Relay Chat) server using poll and to funciton
 similar to a real ft_irc without server to server communications using a single even driven thread.
-
 <br>
+
 IRC is based on an open TCP protocol developed in 1988 by Jarkko Oikarinen at the University of Oulu in Finland.  The IRC server is based on a
 request / response model, where clients issue commands to the server and the server responds to the client with a reply.
-
 <br>
 
 The poll method allows for multiple clients without the need for threading as the communications are multiplexed over one socket connection.
