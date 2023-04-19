@@ -1,0 +1,7 @@
+-xc++
+-Wall
+-Werror
+-Wextra
+-Wdocumentation
+-std=c++98
+-I ./includes/
