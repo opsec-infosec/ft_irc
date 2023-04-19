@@ -37,13 +37,13 @@ similar to a real ft_irc without server to server communications using a single 
 
 IRC is based on an open TCP protocol developed in 1988 by Jarkko Oikarinen at the University of Oulu in Finland.  The IRC server is based on a
 
- request / response model, where clients issue commands to the server and the server responds to the client with a reply.
+request / response model, where clients issue commands to the server and the server responds to the client with a reply.
 
- <br>
+<br>
 
- THe poll method allows for multiple clients without the need for threading as the communications are multiplexed over one socket connection.
+The poll method allows for multiple clients without the need for threading as the communications are multiplexed over one socket connection.
 
- The server blocks on the poll method until an even is received, either POLLIN (receive) or POLLOUT (send), and then processes
+The server blocks on the poll method until an even is received, either POLLIN (receive) or POLLOUT (send), and then processes
 
 the events.  Receive messages are placed into a temporary buffer in order to capture a full message, once a full message is received, the message is split
 
@@ -67,13 +67,13 @@ own receive / send message queues as described above.
 
 <br>
 
-In addition to the IRC server, there is a custom logger that captures logs to a file (and example is 20230412.log) to aid in understanding and debuging the server.
+In addition to the IRC server, there is a custom logger that captures logs to a file (and example is `20230412.log`) to aid in understanding and debuging the server.
 
 And finally there is Marvin, Marvin is a bot that can give you channel ops if there are no channel ops in a channel.
 
-By messaging Marvin (PRIVMSG Marvin :Help), Marvin wil hop into your channel, give himself ChannelOps permission, and then give the client requesting help ChannelOps.
+By messaging Marvin (`PRIVMSG` Marvin :Help), Marvin wil hop into your channel, give himself ChannelOps permission, and then give the client requesting help ChannelOps.
 
-After thanking Marvin (PRIVMSG \<channel\> :Thanks), Marvin departs the channel.  Marvin connects to the IRC server much like a client, using TCP sockets send / receive
+After thanking Marvin (`PRIVMSG` \<channel\> :Thanks), Marvin departs the channel.  Marvin connects to the IRC server much like a client, using TCP sockets send / receive
 
 messages to interface with the IRC server.  In addition, sinc Marvin is essentially living inside the computer, he has access to all the data structures of the server
 
@@ -89,7 +89,7 @@ new ways to implement ideas into the code base, I learned some new concepts from
 
 The client used to test was irssi v1.2.3.  The server was tested with ft_irc-tester and handled around 500+ client connections into a single channel and their respective
 
-channel, (without PRIVMSG to the channel, as this causes a flooding type scenario) and about 100+ clients into a single channel with each client randomly sending messages to the
+channel, (without `PRIVMSG` to the channel, as this causes a flooding type scenario) and about 100+ clients into a single channel with each client randomly sending messages to the
 
 same channel.
 
